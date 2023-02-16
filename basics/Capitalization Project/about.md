@@ -1,0 +1,1 @@
+Create a small program that will read a user's input and correct his/her capitalization. 
