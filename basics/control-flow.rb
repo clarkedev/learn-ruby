@@ -45,6 +45,17 @@ else
     puts "I'm sad and hungry"
 end
 
+# * If statement (includes and gsub)
+print 'User input'
+input = gets.chomp
+input.downcase! 
+
+if input.include? 'hi'
+    input.gsub!(/hi/, 'bye')
+elsif input.include? 'bye'
+    input.gsub!(/bye/, 'hi')
+end
+print input
 
 =begin
 
